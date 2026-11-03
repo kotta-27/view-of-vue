@@ -1,5 +1,7 @@
 # View of Vue
 
+公開版: https://kotta-27.github.io/view-of-vue/
+
 Vue 3 を基礎から内部実装、実務の知識まで、動かして学ぶ教材。全 26 章。
 
 - 入門 A〜G: 最初のアプリからコンポーネントまで
@@ -18,3 +20,5 @@ npm run e2e      # dev 起動中に実行。Chrome を headless で動かす
 ```
 
 個人の学習用。Vue.js 公式とは無関係。
+
+`main` に push すると、GitHub Actions が lint、テスト、ビルドを通したうえで GitHub Pages へ配信する（`.github/workflows/deploy.yml`）。
