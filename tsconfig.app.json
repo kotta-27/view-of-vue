@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "noEmit": true,
+    "composite": true,
+    "types": ["vite/client"],
+    "tsBuildInfoFile": "./node_modules/.tmp/app.tsbuildinfo"
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "tests/**/*.ts"]
+}
